@@ -1,21 +1,13 @@
-# Utiliser l’image officielle de .NET SDK pour la build
+# BUILD
 FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
-WORKDIR /app
-
-# Copier les fichiers .csproj et restaurer les dépendances
-COPY *.sln .
-COPY AzureShopAPI/*.csproj ./AzureShopAPI/
+WORKDIR /src
+COPY *.csproj ./
 RUN dotnet restore
+COPY . .
+RUN dotnet publish -c Release -o /app/publish
 
-# Copier tout le reste et builder
-COPY AzureShopAPI/. ./AzureShopAPI/
-WORKDIR /app/AzureShopAPI
-RUN dotnet publish -c Release -o out
-
-# Runtime image
-FROM mcr.microsoft.com/dotnet/aspnet:7.0 AS runtime
+# RUNTIME
+FROM mcr.microsoft.com/dotnet/aspnet:7.0
 WORKDIR /app
-COPY --from=build /app/AzureShopAPI/out ./
-
-# Lancer l'app
+COPY --from=build /app/publish .
 ENTRYPOINT ["dotnet", "AzureShopAPI.dll"]

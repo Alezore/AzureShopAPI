@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AzureShopAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ae7142ffa72e1e6b1aa72eb4d013090122d5a27d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1b4b8cb6302658797647a4250745c0f089b1071b")]
 [assembly: System.Reflection.AssemblyProductAttribute("AzureShopAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AzureShopAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

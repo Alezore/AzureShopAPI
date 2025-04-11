@@ -1,0 +1,362 @@
+{
+  "Version": 1,
+  "Hash": "R+uhupPm8ZX+OlJ/UxVVuZoKJHO3vixgMIOxyv8E4Kw=",
+  "Source": "AzureShopAPI",
+  "BasePath": "_content/AzureShopAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "AzureShopAPI\\wwwroot",
+      "Source": "AzureShopAPI",
+      "ContentRoot": "C:\\Users\\thoma\\source\\repos\\AzureShopAPI\\AzureShopAPI\\wwwroot\\",
+      "BasePath": "_content/AzureShopAPI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\thoma\\source\\repos\\AzureShopAPI\\AzureShopAPI\\obj\\Debug\\net9.0\\compressed\\msmsuqtaqr-z24ob4quz7.gz",
+      "SourceId": "AzureShopAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\thoma\\source\\repos\\AzureShopAPI\\AzureShopAPI\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/AzureShopAPI",
+      "RelativePath": "index#[.{fingerprint=z24ob4quz7}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\thoma\\source\\repos\\AzureShopAPI\\AzureShopAPI\\wwwroot\\index.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "l6619r2nvl",
+      "Integrity": "japvNp0eUJVuTPJwHa+4pmYqQ2gHCy8ESQ6bf5+GOFY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\thoma\\source\\repos\\AzureShopAPI\\AzureShopAPI\\wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\thoma\\source\\repos\\AzureShopAPI\\AzureShopAPI\\wwwroot\\index.html",
+      "SourceId": "AzureShopAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\thoma\\source\\repos\\AzureShopAPI\\AzureShopAPI\\wwwroot\\",
+      "BasePath": "_content/AzureShopAPI",
+      "RelativePath": "index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "z24ob4quz7",
+      "Integrity": "q8WX0Ip2jBBarW5MnjZiFKGLiuPabJzpl5wyOYATASA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\thoma\\source\\repos\\AzureShopAPI\\AzureShopAPI\\obj\\Debug\\net9.0\\compressed\\msmsuqtaqr-z24ob4quz7.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001081081081"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "924"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"japvNp0eUJVuTPJwHa+4pmYqQ2gHCy8ESQ6bf5+GOFY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 20:15:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"q8WX0Ip2jBBarW5MnjZiFKGLiuPabJzpl5wyOYATASA=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-q8WX0Ip2jBBarW5MnjZiFKGLiuPabJzpl5wyOYATASA="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\thoma\\source\\repos\\AzureShopAPI\\AzureShopAPI\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2630"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"q8WX0Ip2jBBarW5MnjZiFKGLiuPabJzpl5wyOYATASA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 20:15:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-q8WX0Ip2jBBarW5MnjZiFKGLiuPabJzpl5wyOYATASA="
+        }
+      ]
+    },
+    {
+      "Route": "index.html.gz",
+      "AssetFile": "C:\\Users\\thoma\\source\\repos\\AzureShopAPI\\AzureShopAPI\\obj\\Debug\\net9.0\\compressed\\msmsuqtaqr-z24ob4quz7.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "924"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"japvNp0eUJVuTPJwHa+4pmYqQ2gHCy8ESQ6bf5+GOFY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 20:15:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-japvNp0eUJVuTPJwHa+4pmYqQ2gHCy8ESQ6bf5+GOFY="
+        }
+      ]
+    },
+    {
+      "Route": "index.z24ob4quz7.html",
+      "AssetFile": "C:\\Users\\thoma\\source\\repos\\AzureShopAPI\\AzureShopAPI\\obj\\Debug\\net9.0\\compressed\\msmsuqtaqr-z24ob4quz7.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001081081081"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "924"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"japvNp0eUJVuTPJwHa+4pmYqQ2gHCy8ESQ6bf5+GOFY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 20:15:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"q8WX0Ip2jBBarW5MnjZiFKGLiuPabJzpl5wyOYATASA=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "z24ob4quz7"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-q8WX0Ip2jBBarW5MnjZiFKGLiuPabJzpl5wyOYATASA="
+        }
+      ]
+    },
+    {
+      "Route": "index.z24ob4quz7.html",
+      "AssetFile": "C:\\Users\\thoma\\source\\repos\\AzureShopAPI\\AzureShopAPI\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2630"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"q8WX0Ip2jBBarW5MnjZiFKGLiuPabJzpl5wyOYATASA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 20:15:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "z24ob4quz7"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-q8WX0Ip2jBBarW5MnjZiFKGLiuPabJzpl5wyOYATASA="
+        }
+      ]
+    },
+    {
+      "Route": "index.z24ob4quz7.html.gz",
+      "AssetFile": "C:\\Users\\thoma\\source\\repos\\AzureShopAPI\\AzureShopAPI\\obj\\Debug\\net9.0\\compressed\\msmsuqtaqr-z24ob4quz7.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "924"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"japvNp0eUJVuTPJwHa+4pmYqQ2gHCy8ESQ6bf5+GOFY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 20:15:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "z24ob4quz7"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-japvNp0eUJVuTPJwHa+4pmYqQ2gHCy8ESQ6bf5+GOFY="
+        }
+      ]
+    }
+  ]
+}

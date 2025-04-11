@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: azureshop-api
+    runtime: dotnet
+    repo: https://github.com/<TON_UTILISATEUR>/<TON_REPO>
+    buildCommand: dotnet build
+    startCommand: dotnet AzureShopAPI.dll
+    branch: main
+    plan: free
+    env: 
+      - key: ASPNETCORE_ENVIRONMENT
+        value: Production
+    autoDeploy: true

@@ -1,0 +1,6 @@
+@AzureShopAPI_HostAddress = http://localhost:5182
+
+GET {{AzureShopAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

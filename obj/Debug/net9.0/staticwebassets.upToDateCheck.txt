@@ -1,0 +1,2 @@
+C:\Users\thoma\source\repos\AzureShopAPI\AzureShopAPI\wwwroot\index.html
+wwwroot\index.html

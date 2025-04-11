@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Gestion des adresses</title>
+</head>
+<body>
+    <h1>Adresses du client</h1>
+
+    <div>
+        <label>ID Client: </label>
+        <input type="number" id="customerId" value="1">
+        <button onclick="loadAddresses()">Charger les adresses</button>
+    </div>
+
+    <ul id="addressList"></ul>
+
+    <h2>Ajouter une adresse</h2>
+    <form onsubmit="addAddress(event)">
+        <input type="text" id="street" placeholder="Rue" required>
+        <input type="text" id="city" placeholder="Ville" required>
+        <input type="text" id="postalCode" placeholder="Code Postal" required>
+        <input type="text" id="country" placeholder="Pays" required>
+        <button type="submit">Ajouter</button>
+    </form>
+
+    <script>
+        const apiUrl = "https://localhost:7293/api/customers"; 
+        //const apiUrl = "https://localhost:5182/api/customers";
+
+    async function loadAddresses() {
+      const customerId = document.getElementById("customerId").value;
+      const res = await fetch(`${apiUrl}/${customerId}/addresses`);
+      const data = await res.json();
+
+      const list = document.getElementById("addressList");
+      list.innerHTML = "";
+
+      data.forEach(addr => {
+        const li = document.createElement("li");
+        li.textContent = `${addr.street}, ${addr.city} (${addr.postalCode}) - ${addr.country}`;
+        const delBtn = document.createElement("button");
+        delBtn.textContent = "X";
+        delBtn.onclick = () => deleteAddress(addr.id);
+        li.appendChild(delBtn);
+        list.appendChild(li);
+      });
+    }
+
+    async function addAddress(event) {
+      event.preventDefault();
+      const customerId = document.getElementById("customerId").value;
+
+      const address = {
+        street: document.getElementById("street").value,
+        city: document.getElementById("city").value,
+        postalCode: document.getElementById("postalCode").value,
+        country: document.getElementById("country").value
+      };
+
+      await fetch(`${apiUrl}/${customerId}/addresses`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(address)
+      });
+
+      loadAddresses();
+    }
+
+    async function deleteAddress(addressId) {
+        await fetch(`https://localhost:7293/api/addresses/${addressId}`, {
+        // await fetch(`https://localhost:5182/api/addresses/${addressId}`, {
+        method: "DELETE"
+      });
+
+      loadAddresses();
+    }
+    </script>
+</body>
+</html>
